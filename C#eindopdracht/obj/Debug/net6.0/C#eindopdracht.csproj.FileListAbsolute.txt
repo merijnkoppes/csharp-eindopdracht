@@ -1,0 +1,15 @@
+C:\Users\koppe\source\repos\csharp-eindopdracht\C#eindopdracht\obj\Debug\net6.0\C#eindopdracht.csproj.AssemblyReference.cache
+C:\Users\koppe\source\repos\csharp-eindopdracht\C#eindopdracht\obj\Debug\net6.0\C#eindopdracht.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\koppe\source\repos\csharp-eindopdracht\C#eindopdracht\obj\Debug\net6.0\C#eindopdracht.AssemblyInfoInputs.cache
+C:\Users\koppe\source\repos\csharp-eindopdracht\C#eindopdracht\obj\Debug\net6.0\C#eindopdracht.AssemblyInfo.cs
+C:\Users\koppe\source\repos\csharp-eindopdracht\C#eindopdracht\obj\Debug\net6.0\C#eindopdracht.csproj.CoreCompileInputs.cache
+C:\Users\koppe\source\repos\csharp-eindopdracht\C#eindopdracht\bin\Debug\net6.0\C#eindopdracht.exe
+C:\Users\koppe\source\repos\csharp-eindopdracht\C#eindopdracht\bin\Debug\net6.0\C#eindopdracht.deps.json
+C:\Users\koppe\source\repos\csharp-eindopdracht\C#eindopdracht\bin\Debug\net6.0\C#eindopdracht.runtimeconfig.json
+C:\Users\koppe\source\repos\csharp-eindopdracht\C#eindopdracht\bin\Debug\net6.0\C#eindopdracht.dll
+C:\Users\koppe\source\repos\csharp-eindopdracht\C#eindopdracht\bin\Debug\net6.0\C#eindopdracht.pdb
+C:\Users\koppe\source\repos\csharp-eindopdracht\C#eindopdracht\obj\Debug\net6.0\C#eindopdracht.dll
+C:\Users\koppe\source\repos\csharp-eindopdracht\C#eindopdracht\obj\Debug\net6.0\refint\C#eindopdracht.dll
+C:\Users\koppe\source\repos\csharp-eindopdracht\C#eindopdracht\obj\Debug\net6.0\C#eindopdracht.pdb
+C:\Users\koppe\source\repos\csharp-eindopdracht\C#eindopdracht\obj\Debug\net6.0\C#eindopdracht.genruntimeconfig.cache
+C:\Users\koppe\source\repos\csharp-eindopdracht\C#eindopdracht\obj\Debug\net6.0\ref\C#eindopdracht.dll

@@ -68,8 +68,16 @@ namespace C_eindopdracht
                 {
                     Console.WriteLine(afspeellijst.Id);
                 }
-                // Let the user select a playlist to play
-                Console.WriteLine("Please enter the ID of the playlist you want to play:");
+                foreach (Album album in albums)
+                {
+                    Console.WriteLine($"Album {album.Id}:");
+                    foreach (Nummer song in album.AlbumNummers)
+                    {
+                        Console.WriteLine($"- {song.Artiest} - {song.Titel} ({song.Duur} seconds)");
+                    }
+                }
+            // Let the user select a playlist to play
+            Console.WriteLine("Please enter the ID of the playlist you want to play:");
                 int playlistId = int.Parse(Console.ReadLine());
 
                 Afspeellijst selectedPlaylist = user.Afspeellijsten.Find(p => p.Id == playlistId);

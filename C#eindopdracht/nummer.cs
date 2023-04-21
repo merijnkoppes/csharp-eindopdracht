@@ -10,25 +10,18 @@ namespace C_eindopdracht
     class Nummer
     {
         private int Id { get; }
-        private string Titel { get; }
-        private int Duur { get; }
-        private string Artiest { get; }
+        public string Titel { get; }
+        public int Duur { get; }
+        public string Artiest { get; }
         private bool isPlaying;
         private bool isPaused;
         private CancellationTokenSource cts;
         private int currentPlaybackTime;
 
-        public int getId()
-        {
-            return Id;
-        }
-        public int getDuur()
-        {
-            return Duur;
-        }
         public Nummer(int id, string titel, int duur, string artiest)
         {
             Id = id;
+            Titel = titel;
             Duur = duur;
             Artiest = artiest;
         }
@@ -51,7 +44,25 @@ namespace C_eindopdracht
                     while (isPaused)
                     {
                         // Wait for resume command
-                        Thread.Sleep(1);
+                        ConsoleKeyInfo keyInfo = Console.ReadKey(intercept: true);
+                        switch (keyInfo.Key)
+                        {
+                            case ConsoleKey.P:
+                                PauseNummer();
+                                break;
+                            case ConsoleKey.R:
+                                ResumeNummer();
+                                break;
+                            case ConsoleKey.N:
+                                SkipToNextNummer();
+                                break;
+                            case ConsoleKey.B:
+                                SkipToPreviousNummer();
+                                break;
+                            case ConsoleKey.S:
+                                StopNummer();
+                                break;
+                        }
                     }
                     Console.WriteLine($"Resumed '{Titel}'");
                 }
@@ -111,7 +122,6 @@ namespace C_eindopdracht
             if (isPlaying && isPaused)
             {
                 isPaused = false;
-                Console.WriteLine($"Resumed '{Titel}'");
             }
         }
 
